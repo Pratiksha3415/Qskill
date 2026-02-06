@@ -1,0 +1,32 @@
+### Create Todo
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+  "title": "Learn Backend"
+}
+
+###
+
+### Get Todos
+GET http://localhost:3000/api/todos
+
+###
+
+### Update Todo
+PUT http://localhost:3000/api/todos/PASTE_ID_HERE
+Content-Type: application/json
+
+{
+  "title": "Learn Express"
+}
+
+###
+
+### Complete Todo
+PUT http://localhost:3000/api/todos/PASTE_ID_HERE/complete
+
+###
+
+### Delete Todo
+DELETE http://localhost:3000/api/todos/PASTE_ID_HERE
