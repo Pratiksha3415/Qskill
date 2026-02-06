@@ -65,3 +65,69 @@ Both projects are built using Node.js, Express.js, and MongoDB following REST AP
 
 ## 📂 Project Structure
 
+project-root/
+├ todo-backend/
+├ book-catalog/
+├ screenshots/
+└ README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+git clone <your-repo-link>
+cd project-root
+
+### 2️⃣ Install Dependencies
+npm install
+
+### 3️⃣ Setup Environment Variables
+Create `.env` file in each project:
+PORT=3000
+MONGO_URL=your_mongodb_connection_string
+
+### 4️⃣ Run Server
+node app.js
+or
+npx nodemon app.js
+
+
+---
+
+## 🧪 Testing
+
+APIs were tested using:
+- Thunder Client (VS Code Extension)
+- REST Client
+
+Test cases and screenshots are available in `/screenshots`.
+
+---
+
+## 📸 Screenshots
+
+Screenshots of API testing using Thunder Client/Postman are provided to demonstrate working APIs.
+
+---
+
+## 🎯 Learning Outcomes
+- REST API development
+- MVC architecture
+- Database modeling using Mongoose
+- Error handling
+- Backend testing
+- Project documentation
+
+---
+
+## 👩‍💻 Author
+Name: Pratiksha Aghav  
+Internship: QSkill Backend Internship  
+Year: 2026
+
+
+
+
+
